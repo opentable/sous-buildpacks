@@ -40,7 +40,7 @@ requireNonempty ARTIFACT_DIR
 [ -d "$BASE_DIR" ] ||
 	die "no directory at BASE_DIR ($BASE_DIR)"
 [ -d "$BASE_DIR/$REPO_DIR" ] ||
-	die "no directory at REPO_ROOT ($REPO_ROOT)"
+	die "no directory at REPO_DIR ($REPO_DIR)"
 [ -d "$BASE_DIR/$REPO_DIR/$REPO_WORKDIR" ] ||
 	die "no directory at BASE_DIR/REPO_DIR/REPO_WORKDIR ($BASE_DIR/$REPO_DIR/$REPO_WORKDIR)"
 [ -d "$ARTIFACT_DIR" ] ||
