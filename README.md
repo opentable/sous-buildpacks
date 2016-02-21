@@ -4,7 +4,7 @@ Each directory in this repo contains an entire buildpack.
 
 ## What's in a buildpack?
 
-A builpack consists of a series of shell scripts which are run inside special build containers spun up by Sous. These containers have some special features which make them ideal for building, more on that below. A single buildpack tells Sous how to build projects written using a particular stack. For example NodeJS, Ruby, C#, Java, ...
+A buildpack consists of a series of shell scripts which are run inside special build containers spun up by Sous. These containers have some features which make them ideal for building, more on that below. A single buildpack tells Sous how to build projects written using a particular stack. For example NodeJS, Ruby, C#, Java, ...
 
 Each script in a buildpack performs a specific task, either doing something with, or providing some information about your project to Sous. Here are all the scripts each buildpack needs:
 
